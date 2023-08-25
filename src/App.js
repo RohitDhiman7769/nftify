@@ -5,7 +5,7 @@ import Navigation from './Navigation';
 import './App.css';
 import TokenAdress from './TokenAddress';
 import PairAddress from './PairAddress';
-import searchIcon from './newAssignmentLogo/Vector.png'
+import searchIcon from './newAssignmentLogo/Vector.svg'
 import lodash from 'lodash';
 
 

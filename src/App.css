@@ -62,9 +62,12 @@
   height: 3em;
   top: 27px;
   left: 353px;
-  border: 1px;
-  background: linear-gradient(95.42deg, rgba(124, 15, 53, 0.2) 4.79%, rgba(88, 18, 102, 0.2) 100%),
-    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  border: 1px solid #FFF;
+  background: linear-gradient(132deg, rgba(124, 15, 53, 0.20) 0%, rgba(88, 18, 102, 0.20)100%);
+}
+
+.serchBar::-webkit-input-placeholder {
+  color: #FFF;
 }
 
 #seachIcon {

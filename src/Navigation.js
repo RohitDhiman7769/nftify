@@ -4,6 +4,7 @@ import './Navigation.css'
 import vector from './newAssignmentLogo/Vector.svg'
 import tokenlogo from './newAssignmentLogo/ic_baseline-token.png'
 import pairlogo from './newAssignmentLogo/fluent_pair-24-filled.png'
+import socialLogo from './newAssignmentLogo/Frame 1649.svg'
 
 export default function Navigation() {
 
@@ -17,20 +18,30 @@ export default function Navigation() {
     }
 
     return (
-        <div>
-            <header className='left-boxHeader'>
-                <img src={vector} id='vector-svg' alt='logo' />
-                <h1 id='logo-name'>NFTify</h1>
-            </header>
-            <div className='link-style'>
-                <div className={`token-link-box ${selectedItem === 'tokenAddress' ? 'selected' : ''}`}>
-                    <img alt='token-logo' src={tokenlogo} className='logos'></img>
-                    <Link to='/tokenAddress' className='tokenAdressclass' >Token Address</Link>
+        <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+            height: 'inherit'
+        }}>
+            <div>
+                <header className='left-boxHeader'>
+                    <img src={vector} id='vector-svg' alt='logo' />
+                    <h1 id='logo-name'>NFTify</h1>
+                </header>
+                <div className='link-style'>
+                    <div className={`token-link-box ${selectedItem === 'tokenAddress' ? 'selected' : ''}`}>
+                        <img alt='token-logo' src={tokenlogo} className='logos'></img>
+                        <Link to='/tokenAddress' className='tokenAdressclass' >Token Address</Link>
+                    </div>
+                    <div className={`token-link-box ${selectedItem === 'pairAddress' ? 'selected' : ''}`}>
+                        <img src={pairlogo} alt='pair-logo' className='logos'></img>
+                        <Link to='/pairAddress' className='pairAdressclass' >Pair Address</Link>
+                    </div>
                 </div>
-                <div className={`token-link-box ${selectedItem === 'pairAddress' ? 'selected' : ''}`}>
-                    <img src={pairlogo} alt='pair-logo' className='logos'></img>
-                    <Link to='/pairAddress' className='pairAdressclass' >Pair Address</Link>
-                </div>
+            </div>
+            <div className='token-link-box'>
+                <img src={socialLogo} alt='pair-logo' className='logos social'></img>
             </div>
         </div>
     )
