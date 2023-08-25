@@ -24,11 +24,11 @@ export default function Navigation() {
             </header>
             <div className='link-style'>
                 <div className={`token-link-box ${selectedItem === 'tokenAddress' ? 'selected' : ''}`}>
-                    <img src={tokenlogo} className='logos'></img>
+                    <img alt='token-logo' src={tokenlogo} className='logos'></img>
                     <Link to='/tokenAddress' className='tokenAdressclass' >Token Address</Link>
                 </div>
                 <div className={`token-link-box ${selectedItem === 'pairAddress' ? 'selected' : ''}`}>
-                    <img src={pairlogo} className='logos'></img>
+                    <img src={pairlogo} alt='pair-logo' className='logos'></img>
                     <Link to='/pairAddress' className='pairAdressclass' >Pair Address</Link>
                 </div>
             </div>
