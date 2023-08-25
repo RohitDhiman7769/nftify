@@ -1,0 +1,67 @@
+.left-boxHeader {
+  height: 7em;
+  width: 22em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#vector-svg {
+  height: 40px;
+  width: 40px;
+}
+
+#logo-name {
+  color: rgba(255, 255, 255, 0.70);
+  font-family: Pacifico;
+  margin-left: 1em;
+  letter-spacing: 4px;
+}
+
+.tokenAdressclass {
+  font-size: 1.5em;
+
+  display: table-cell;
+  height: 3.5em;
+  margin-right: 2em;
+  width: 15em;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.pairAdressclass {
+  font-size: 1.5em;
+  display: table-cell;
+  height: 3.5em;
+  margin-right: 2em;
+  width: 15em;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.token-link-box {
+  display: flex;
+  align-items: center;
+}
+
+.logos {
+  height: 1.5em;
+  width: 1.6em;
+  padding-left: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.selected {
+  background: #F30050;
+}

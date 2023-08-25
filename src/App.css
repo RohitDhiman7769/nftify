@@ -1,0 +1,74 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.container {
+  width: 100em;
+  height: 42.5em;
+  flex-shrink: 0;
+  display: flex;
+  background-attachment: fixed;
+  height: auto;
+  background-image: url('./newAssignmentLogo/435988.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.left-box {
+  width: 22em;
+  height: 43.5em;
+  background-color: rgba(41, 41, 41, 1);
+  border-radius: 0px 32px 0px 0px;
+  position: fixed;
+}
+
+.right-box {
+  margin-left: 22em;
+  width: 78em;
+  height: 43.5em;
+}
+
+/* #vector-svg {
+  height: 100px;
+  width: 100px;
+} */
+
+.footer {
+  height: 3em;
+  width: 100em;
+  background: rgba(243, 0, 80, 1);
+  position: fixed;
+}
+
+.serach-input {
+  margin-top: 2em;
+  height: 3em;
+  width: 29em;
+  margin-left: 9em;
+  margin-left: 80px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.serchBar {
+  margin-left: 80px;
+  font-size: 1em;
+  border-radius: 20px;
+  padding-left: 1em;
+  position: fixed;
+  width: 29em;
+  height: 3em;
+  top: 27px;
+  left: 353px;
+  border: 1px;
+  background: linear-gradient(95.42deg, rgba(124, 15, 53, 0.2) 4.79%, rgba(88, 18, 102, 0.2) 100%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}
+
+#seachIcon {
+  position: fixed;
+  top: 41px;
+  right: 43.2em;
+}

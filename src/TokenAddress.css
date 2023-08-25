@@ -1,0 +1,20 @@
+.Tokenheadline {
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+}
+
+.cards-container {
+    display: flex;
+    height: 35em;
+    margin-left: 1em;
+    display: block;
+    overflow: scroll;
+    text-overflow: ellipsis;
+}
+
+.cards-container::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,56 @@
+.cards {
+    height: 11em;
+    width: 17em;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin: 7px;
+    background-color: rgba(57, 5, 84, 1);
+    border-radius: 16px;
+}
+
+.card-headline {
+    color: white;
+    font-size: 1.1em;
+}
+
+.child-div {
+    margin-top: 1em;
+    display: flex;
+}
+
+.key {
+    margin-top: 5px;
+    display: block;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.value {
+    margin-top: 5px;
+    margin-left: 4em;
+    display: block;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 135px;
+
+}
+
+.main-container {
+    margin-top: 3em;
+    display: flex;
+}
