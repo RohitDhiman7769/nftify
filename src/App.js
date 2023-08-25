@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import axios from 'axios';
 import Navigation from './Navigation';
 import './App.css';
@@ -69,6 +69,7 @@ function App() {
           <Routes>
             <Route path='/tokenAddress' element={<TokenAdress data={addressData} />} />
             <Route path='/pairAddress' element={<PairAddress data={addressData} />} />
+            <Route path='/*' element={<Navigate to={'/tokenAddress'} />} />
           </Routes>
         </div>
       </div>
