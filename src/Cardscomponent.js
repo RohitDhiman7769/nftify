@@ -14,11 +14,10 @@ export default function Cardscomponent({ data }) {
 
                     </div>
                     <div  >
-                        <p className='value'>{data?.pairCreatedAt}</p>
+                        <p className='value'>{new Date(data?.pairCreatedAt).toDateString()}</p>
                         <p className='value' >{data?.baseToken?.symbol}</p>
                         <p className='value' >{data?.dexId}</p>
                         <p className='value' >{data?.pairAddress}</p>
-
                     </div>
                 </div>
             </div>

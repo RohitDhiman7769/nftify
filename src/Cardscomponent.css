@@ -34,6 +34,7 @@
 }
 
 .value {
+    position: relative;
     margin-top: 5px;
     margin-left: 4em;
     display: block;
@@ -48,6 +49,10 @@
     text-align: left;
     width: 135px;
 
+}
+
+.value:hover, .key:hover{
+    overflow: visible; 
 }
 
 .main-container {

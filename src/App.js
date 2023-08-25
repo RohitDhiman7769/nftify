@@ -62,12 +62,10 @@ function App() {
           <Navigation />
         </div>
         <div className='right-box'>
-          <header>
             <div className='serach-input' >
               <input type='text' value={searchValue} placeholder='Search' className='serchBar' onChange={(e) => setSearchValue(e.target?.value)} onKeyDown={handleKeyDown}></input>
               <img alt='search-icon' src={searchIcon} id='seachIcon' />
             </div>
-          </header>
           <Routes>
             <Route path='/tokenAddress' element={<TokenAdress data={addressData} />} />
             <Route path='/pairAddress' element={<PairAddress data={addressData} />} />
